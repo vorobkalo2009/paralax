@@ -1,0 +1,27 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 500px));
+  
+    gap: 20px;
+    padding: 20px 15px;
+  }
+  
+  .card {
+    margin: 0 auto;
+    background-color: green;
+    border: 2px dashed red;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    transform: translateX(100px);
+    opacity: 0;
+    pointer-events: none;
+    transition: 150ms;
+  }
+  
+  .card.show {
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: all;
+  }

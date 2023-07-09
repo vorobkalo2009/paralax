@@ -1,15 +1,15 @@
 {
-  "name": "jslessons",
+  "name": "paralax",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://  нікнейм на гітхабі.github.io/назва вашого репо",
+  "homepage": "https://vorobey0902.github.io/paralax",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /ваш репо/"
+    "build": "parcel build src/*.html --public-url /paralax/"
   },
   "repository": {
     "type": "git",
-    "url": "git+посилання на ваш репозиторій.git"
+    "url": "git+https://github.com/vorobkalo2009/paralax.git"
   },
   "keywords": [],
   "author": "",
@@ -18,10 +18,12 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
+    "axios": "^1.4.0",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
+    "buffer": "^6.0.3",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
